@@ -1,0 +1,72 @@
+[
+  {
+    "id": 6823689,
+    "name": "Devadatt Shah",
+    "email": "devadatt_shah@gleason-ferry.test",
+    "gender": "female",
+    "status": "active"
+  },
+  {
+    "id": 6823688,
+    "name": "Bandhu Bhattacharya",
+    "email": "bhattacharya_bandhu@glover-crona.test",
+    "gender": "female",
+    "status": "inactive"
+  },
+  {
+    "id": 6823687,
+    "name": "Swapnil Shukla LLD",
+    "email": "swapnil_lld_shukla@hirthe-heller.test",
+    "gender": "male",
+    "status": "inactive"
+  },
+  {
+    "id": 6823686,
+    "name": "Bhadran Khatri III",
+    "email": "bhadran_iii_khatri@larkin.example",
+    "gender": "female",
+    "status": "active"
+  },
+  {
+    "id": 6823685,
+    "name": "Abhaidev Adiga",
+    "email": "adiga_abhaidev@skiles-weimann.test",
+    "gender": "male",
+    "status": "inactive"
+  },
+  {
+    "id": 6823684,
+    "name": "Msgr. Baalaaditya Kaur",
+    "email": "kaur_baalaaditya_msgr@lehner-pouros.example",
+    "gender": "female",
+    "status": "active"
+  },
+  {
+    "id": 6823683,
+    "name": "Rev. Chaitan Acharya",
+    "email": "rev_acharya_chaitan@bartoletti.test",
+    "gender": "female",
+    "status": "active"
+  },
+  {
+    "id": 6823682,
+    "name": "Harinarayan Iyengar",
+    "email": "iyengar_harinarayan@larkin.example",
+    "gender": "male",
+    "status": "inactive"
+  },
+  {
+    "id": 6823681,
+    "name": "Bhramar Kaur",
+    "email": "kaur_bhramar@becker.test",
+    "gender": "female",
+    "status": "inactive"
+  },
+  {
+    "id": 6823680,
+    "name": "Bhoopati Mahajan",
+    "email": "mahajan_bhoopati@homenick.test",
+    "gender": "male",
+    "status": "inactive"
+  }
+]
