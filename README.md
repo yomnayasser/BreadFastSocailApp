@@ -48,8 +48,9 @@ for api handling:@tanstack/react-quer
 
 
 # ios 
-![1](https://github.com/yomnayasser/BreadFastSocailApp/assets/69354908/4394c740-685f-47f3-990e-915f02c2c886)
-![2](https://github.com/yomnayasser/BreadFastSocailApp/assets/69354908/8437dbd4-955e-4098-ab33-6bcf5b5572f6)
+
+<img width="355" alt="Screenshot 2024-04-07 at 1 48 26 AM" src="https://github.com/yomnayasser/BreadFastSocailApp/assets/69354908/8925d095-368c-4333-9e09-5d161d6428f6">
+<img width="340" alt="Screenshot 2024-04-07 at 1 48 31 AM" src="https://github.com/yomnayasser/BreadFastSocailApp/assets/69354908/cebdb8dd-af0c-4e2c-bf08-51e9fff5cc32">
 
 
 
