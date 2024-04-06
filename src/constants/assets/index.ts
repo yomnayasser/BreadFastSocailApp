@@ -7,3 +7,7 @@ type images = {
 export const IMAGES: images = {
   avatar: require('./images/avatar.png'),
 };
+
+export const ANIMATION = {
+  loading: require('./animation/Loading.json'),
+};
