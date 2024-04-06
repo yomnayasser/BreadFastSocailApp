@@ -1,8 +1,8 @@
-import {StyleSheet} from 'react-native';
+import {Platform, StyleSheet} from 'react-native';
 
 export default StyleSheet.create({
   pressableContainer: {
-    marginVertical: 16,
+    marginVertical: Platform.OS === 'ios' ? 20 : 30,
     paddingVertical: 16,
     paddingHorizontal: 10,
     borderRadius: 15,
@@ -10,7 +10,8 @@ export default StyleSheet.create({
     shadowOffset: {width: 1, height: 3},
     shadowOpacity: 0.2,
     shadowRadius: 1,
-    borderWidth: 0.2,
+    borderWidth: Platform?.OS === 'ios' ? 0.2 : 0.5,
+    elevation: 3,
   },
   container: {
     paddingVertical: 16,

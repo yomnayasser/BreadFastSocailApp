@@ -6,7 +6,7 @@ import {Pressable} from '@wrappers/index';
 import {PostContent} from '@components/index';
 
 type Props = {
-  name: number;
+  name: number | string;
   title: string;
   body: string;
   onPress?: (event: GestureResponderEvent) => void;

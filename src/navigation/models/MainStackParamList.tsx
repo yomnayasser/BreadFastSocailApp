@@ -5,6 +5,7 @@ type MainStackParamList = {
   Home: undefined;
   PostDetails: {
     post: PostsType;
+    userName: string | number;
   };
 };
 

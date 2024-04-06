@@ -16,6 +16,7 @@ type Props = {
 const PostDetails = ({route}: Props) => {
   const navigation = useNavigation();
   const post = route?.params?.post;
+  const userName = route?.params?.userName;
   const {data: commentsList, isLoading} = useFetchPostComments(post?.id);
   return (
     <ScrollView
@@ -30,14 +31,20 @@ const PostDetails = ({route}: Props) => {
         </TouchableOpacity>
         <PostContent
           style={styles.postContent}
-          title={post.user_id}
+          title={userName}
           content={post.title}
           body={post.body}
         />
         <View style={styles.separator} />
-        <Text medium style={styles.commentTitle}>
-          All comments
-        </Text>
+        {commentsList?.length !== 0 ? (
+          <Text medium style={styles.commentTitle}>
+            All comments
+          </Text>
+        ) : (
+          <Text medium center>
+            No comments on this post
+          </Text>
+        )}
         {isLoading ? (
           <CommentSkeleton />
         ) : (

@@ -1,10 +1,10 @@
-import {StyleSheet} from 'react-native';
+import {Platform, StyleSheet} from 'react-native';
 
 export default StyleSheet.create({
   scrollViewContainer: {
     marginHorizontal: 16,
   },
-  container: {marginVertical: 80},
+  container: {marginVertical: Platform.OS === 'ios' ? 50 : 30},
   avatar: {
     width: 100,
     height: 100,

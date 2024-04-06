@@ -5,7 +5,7 @@ import {Text, View} from '@wrappers/index';
 import {CardActions, InfoTicket} from '@components/index';
 
 type Props = {
-  title: number;
+  title: number | string;
   content: string;
   body: string;
   style?: ViewStyle;

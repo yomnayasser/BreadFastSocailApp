@@ -1,4 +1,4 @@
-import {StyleSheet} from 'react-native';
+import {Platform, StyleSheet} from 'react-native';
 
 export default StyleSheet.create({
   scrollViewContainer: {
@@ -6,7 +6,7 @@ export default StyleSheet.create({
     backgroundColor: 'white',
   },
   container: {
-    marginVertical: 50,
+    marginVertical: Platform.OS === 'ios' ? 50 : 30,
   },
   header: {
     marginVertical: 10,
