@@ -3,11 +3,11 @@ import {ScrollView} from 'react-native';
 import {useNavigation} from '@react-navigation/native';
 
 import styles from './PostDetails.styles';
-import {Icon, InfoTicket, PostContent} from '@components/index';
-import {Text, TouchableOpacity, View} from '@wrappers/index';
-import {PostDetailsScreenRouteProp} from '@navigation/navigationTypes';
 import {useFetchPostComments} from '@hooks/index';
-import {CommentSkeleton} from '../../skeletons';
+import {CommentSkeleton} from '@skeletons/index';
+import {Text, TouchableOpacity, View} from '@wrappers/index';
+import {Icon, InfoTicket, PostContent} from '@components/index';
+import {PostDetailsScreenRouteProp} from '@navigation/navigationTypes';
 
 type Props = {
   route: PostDetailsScreenRouteProp;

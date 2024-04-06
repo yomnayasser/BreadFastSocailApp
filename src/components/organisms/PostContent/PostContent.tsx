@@ -1,7 +1,8 @@
-import {CardActions, InfoTicket} from '@components/index';
-import {Text, View} from '@wrappers/index';
 import React, {useState} from 'react';
 import {ViewStyle} from 'react-native';
+
+import {Text, View} from '@wrappers/index';
+import {CardActions, InfoTicket} from '@components/index';
 
 type Props = {
   title: number;

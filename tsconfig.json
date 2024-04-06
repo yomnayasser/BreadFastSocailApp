@@ -7,6 +7,7 @@
       "@screens/*": ["./src/screens/*"],
       "@services/*": ["./src/services/*"],
       "@wrappers/*": ["./src/wrappers/*"],
+      "@skeletons/*": ["./src/skeletons/*"],
       "@constants/*": ["./src/constants/*"],
       "@navigation/*": ["./src/navigation/*"],
       "@components/*": ["./src/components/*"]

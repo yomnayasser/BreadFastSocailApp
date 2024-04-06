@@ -1,13 +1,13 @@
 import React from 'react';
 import {ScrollView} from 'react-native';
+import {useNavigation} from '@react-navigation/native';
 
 import styles from './Home.styles';
 import {Text, View} from '@wrappers/index';
 import {PostCard} from '@components/index';
-import {useNavigation} from '@react-navigation/native';
-import {PostDetailsScreenNavigationProp} from '@navigation/navigationTypes';
 import {useFetchPostsList} from '@hooks/index';
-import {HomeSkeleton} from '../../skeletons';
+import {HomeSkeleton} from '@skeletons/index';
+import {PostDetailsScreenNavigationProp} from '@navigation/navigationTypes';
 
 const Home = () => {
   const navigation = useNavigation<PostDetailsScreenNavigationProp>();

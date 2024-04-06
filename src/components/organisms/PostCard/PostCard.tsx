@@ -2,8 +2,8 @@ import React from 'react';
 import {GestureResponderEvent} from 'react-native';
 
 import styles from './PostCard.styles';
+import {Pressable} from '@wrappers/index';
 import {PostContent} from '@components/index';
-import {Pressable, Text} from '@wrappers/index';
 
 type Props = {
   name: number;
