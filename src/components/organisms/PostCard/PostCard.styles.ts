@@ -2,7 +2,7 @@ import {StyleSheet} from 'react-native';
 
 export default StyleSheet.create({
   pressableContainer: {
-    marginVertical: 10,
+    marginVertical: 16,
     paddingVertical: 16,
     paddingHorizontal: 10,
     borderRadius: 15,
@@ -13,7 +13,6 @@ export default StyleSheet.create({
     borderWidth: 0.2,
   },
   container: {
-    // marginBottom: 20,
     paddingVertical: 16,
     paddingHorizontal: 10,
   },

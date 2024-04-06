@@ -19,9 +19,6 @@ const PostCard = ({name, title, body, onPress}: Props) => {
       variant="primary"
       onPress={onPress}>
       <PostContent title={name} content={title} body={body} />
-      <Text mediumSize right style={styles.comments} color={'@commentText'}>
-        5 comments
-      </Text>
     </Pressable>
   );
 };

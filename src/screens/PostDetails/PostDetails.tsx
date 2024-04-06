@@ -5,8 +5,9 @@ import {useNavigation} from '@react-navigation/native';
 import styles from './PostDetails.styles';
 import {Icon, InfoTicket, PostContent} from '@components/index';
 import {Text, TouchableOpacity, View} from '@wrappers/index';
-import {Comments} from '../../fakers';
 import {PostDetailsScreenRouteProp} from '@navigation/navigationTypes';
+import {useFetchPostComments} from '@hooks/index';
+import {CommentSkeleton} from '../../skeletons';
 
 type Props = {
   route: PostDetailsScreenRouteProp;
@@ -15,6 +16,7 @@ type Props = {
 const PostDetails = ({route}: Props) => {
   const navigation = useNavigation();
   const post = route?.params?.post;
+  const {data: commentsList, isLoading} = useFetchPostComments(post?.id);
   return (
     <ScrollView
       style={styles.scrollViewContainer}
@@ -36,17 +38,23 @@ const PostDetails = ({route}: Props) => {
         <Text medium style={styles.commentTitle}>
           All comments
         </Text>
-        {Comments.map(comment => {
-          return (
-            <InfoTicket
-              title={comment.name}
-              content={comment.body}
-              size="small"
-              backgroundColor="@secondaryBgColor"
-              contentColor="@darkText"
-            />
-          );
-        })}
+        {isLoading ? (
+          <CommentSkeleton />
+        ) : (
+          <>
+            {commentsList?.map(comment => {
+              return (
+                <InfoTicket
+                  title={comment.name}
+                  content={comment.body}
+                  size="small"
+                  backgroundColor="@secondaryBgColor"
+                  contentColor="@darkText"
+                />
+              );
+            })}
+          </>
+        )}
       </View>
     </ScrollView>
   );

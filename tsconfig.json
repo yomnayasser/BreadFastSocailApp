@@ -2,8 +2,10 @@
   "extends": "@react-native/typescript-config/tsconfig.json",
   "compilerOptions": {
     "paths": {
+      "@hooks/*": ["./src/hooks/*"],
       "@common/*": ["./src/common/*"],
       "@screens/*": ["./src/screens/*"],
+      "@services/*": ["./src/services/*"],
       "@wrappers/*": ["./src/wrappers/*"],
       "@constants/*": ["./src/constants/*"],
       "@navigation/*": ["./src/navigation/*"],
