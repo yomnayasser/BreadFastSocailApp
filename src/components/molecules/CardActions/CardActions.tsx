@@ -11,8 +11,10 @@ type Props = {
 
 const CardActions = ({savedPost, setSavedPost}: Props) => {
   return (
-    <View style={styles.container}>
-      <TouchableOpacity onPress={() => setSavedPost(!savedPost)}>
+    <View style={styles.container} testID="cardActionId">
+      <TouchableOpacity
+        onPress={() => setSavedPost(!savedPost)}
+        testID="cardActionOnPress">
         <Icon
           name="heart4"
           size={22}

@@ -23,7 +23,7 @@ const InfoTicket = ({
   contentColor,
 }: Props) => {
   return (
-    <View style={styles.innerContainer}>
+    <View style={styles.innerContainer} testID="infoTicketId">
       <View>
         <Image
           source={IMAGES.avatar}
