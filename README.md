@@ -1,8 +1,6 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
 ## Step 1: Start the Metro Server
 
@@ -10,11 +8,8 @@ First, you will need to start **Metro**, the JavaScript _bundler_ that ships _wi
 
 To start Metro, run the following command from the _root_ of your React Native project:
 
-```bash
-# using npm
-npm start
 
-# OR using Yarn
+# using Yarn
 yarn start
 ```
 
@@ -24,57 +19,42 @@ Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _roo
 
 ### For Android
 
-```bash
-# using npm
-npm run android
-
-# OR using Yarn
+# using Yarn
 yarn android
-```
 
-### For iOS
+### For ios
 
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
+# using Yarn
 yarn ios
 ```
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
 
-## Step 3: Modifying your App
+### App Structure 
+The app contains 3 screens: Splash, Home and Post Details screen
+### Design Methodology 
+I used the Atomic Design Methodology where I divded the components to three groups: atoms, molecules and organisms
+### Libraries used
+for theming:react-native-theming
+for icons:react-native-vector-icons
+for skeletons:react-native-skeleton-placeholder
+for animation:lottie-react-native
+for api handling:@tanstack/react-quer
 
-Now that you have successfully run the app, let's modify it.
+### Screenshots
+# android
+<img width="340" alt="1" src="https://github.com/yomnayasser/BreadFastSocailApp/assets/69354908/a7022a8f-3f32-4bcc-b0ff-c27adb58fcaf">
+<img width="345" alt="2" src="https://github.com/yomnayasser/BreadFastSocailApp/assets/69354908/d81ecd47-8e93-47f5-ad5d-b0a14510329d">
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+# ios 
 
-## Congratulations! :tada:
+<img width="355" alt="Screenshot 2024-04-07 at 1 48 26 AM" src="https://github.com/yomnayasser/BreadFastSocailApp/assets/69354908/8925d095-368c-4333-9e09-5d161d6428f6">
+<img width="340" alt="Screenshot 2024-04-07 at 1 48 31 AM" src="https://github.com/yomnayasser/BreadFastSocailApp/assets/69354908/cebdb8dd-af0c-4e2c-bf08-51e9fff5cc32">
 
-You've successfully run and modified your React Native App. :partying_face:
 
-### Now what?
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
 
-# Troubleshooting
 
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
 
-# Learn More
 
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
-# BreadFastSocailApp
